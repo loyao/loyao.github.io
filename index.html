@@ -219,7 +219,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2021-03-11 13:17:53 / Modified: 13:28:59" itemprop="dateCreated datePublished" datetime="2021-03-11T13:17:53+08:00">2021-03-11</time>
+      <time title="Created: 2021-03-11 13:17:53 / Modified: 13:42:23" itemprop="dateCreated datePublished" datetime="2021-03-11T13:17:53+08:00">2021-03-11</time>
     </span>
 
   
@@ -232,13 +232,10 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>laravel 查看运行的sql：  </p>
+          <p>#laravel<br>laravel 查看运行的sql：  </p>
 <figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">DB::connection()-&gt;enableQueryLog();<span class="comment">//启动日志  </span></span><br><span class="line">DB::getQueryLog();<span class="comment">//打印日志  </span></span><br></pre></td></tr></table></figure>
 
-<p>事务的四大特性（ACID）<br>1.原子性（atomicity）：一个事务必须视为一个不可分割的最小工作单元，整个事务中的所有操作要么全部提交成功，要么全部失败回滚，对于一个事务来说，不可能只执行其中的一部分操作，这就是事务的原子性。</p>
-<p>2.一致性（consistency）：数据库总数从一个一致性的状态转换到另一个一致性的状态。</p>
-<p>3.隔离性（isolation）：一个事务所做的修改在最终提交以前，对其他事务是不可见的。</p>
-<p>4.持久性（durability）：一旦事务提交，则其所做的修改就会永久保存到数据库中。此时即使系统崩溃，修改的数据也不会丢失。</p>
+<p>#数据库<br>事务的四大特性（ACID）<br>1.原子性（atomicity）：一个事务必须视为一个不可分割的最小工作单元，整个事务中的所有操作要么全部提交成功，要么全部失败回滚，对于一个事务来说，不可能只执行其中的一部分操作，这就是事务的原子性。<br>2.一致性（consistency）：数据库总数从一个一致性的状态转换到另一个一致性的状态。<br>3.隔离性（isolation）：一个事务所做的修改在最终提交以前，对其他事务是不可见的。<br>4.持久性（durability）：一旦事务提交，则其所做的修改就会永久保存到数据库中。此时即使系统崩溃，修改的数据也不会丢失。  </p>
 
       
     </div>
