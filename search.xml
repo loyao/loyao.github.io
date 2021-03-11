@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>笔记</title>
-    <url>/2021/03/10/notice/</url>
+    <url>/2021/03/11/notice/</url>
     <content><![CDATA[<h1 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h1><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="事务的四大特性（ACID）"><a href="#事务的四大特性（ACID）" class="headerlink" title="事务的四大特性（ACID）"></a>事务的四大特性（ACID）</h3><p>1.原子性（atomicity）：一个事务必须视为一个不可分割的最小工作单元，整个事务中的所有操作要么全部提交成功，要么全部失败回滚，对于一个事务来说，不可能只执行其中的一部分操作，这就是事务的原子性。<br>2.一致性（consistency）：数据库总数从一个一致性的状态转换到另一个一致性的状态。<br>3.隔离性（isolation）：一个事务所做的修改在最终提交以前，对其他事务是不可见的。<br>4.持久性（durability）：一旦事务提交，则其所做的修改就会永久保存到数据库中。此时即使系统崩溃，修改的数据也不会丢失。  </p>
 <h2 id="-1"><a href="#-1" class="headerlink" title=""></a></h2><p>Explain + SQL语句 对sql语句机型性能分析</p>
 <h2 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h2><p>什么是索引，作用是什么？常见索引类型有那些？Mysql 建立索引的原则？<br>索引是一种特殊的文件，它们包含着对数据表里所有记录的引用指针，相当于书本的目录。其作用就是加快数据的检索效率。常见索引类型有主键、唯一索引、复合索引、全文索引。</p>
@@ -13,7 +13,7 @@
       </categories>
   </entry>
   <entry>
-    <title>php笔迹</title>
+    <title>php笔记</title>
     <url>/2021/03/11/php/</url>
     <content><![CDATA[<img src="/2021/03/11/php/logo_php.svg" class="" title="This is an example image">
 
