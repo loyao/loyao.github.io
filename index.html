@@ -307,7 +307,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-03-14 12:18:14" itemprop="dateModified" datetime="2021-03-14T12:18:14+08:00">2021-03-14</time>
+        <time title="修改时间：2021-03-14 14:50:33" itemprop="dateModified" datetime="2021-03-14T14:50:33+08:00">2021-03-14</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -332,7 +332,7 @@
           <h1 id="laravel"><a href="#laravel" class="headerlink" title="laravel"></a>laravel</h1><p>laravel 查看运行的sql：  </p>
 <figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">DB::connection()-&gt;enableQueryLog();<span class="comment">//启动日志  </span></span><br><span class="line">DB::getQueryLog();<span class="comment">//打印日志  </span></span><br></pre></td></tr></table></figure>
 
-<p>laravel 在添加了composer中自动加载的文件之后<br>composer dump-autoload<br>运行将方法加载保证生效</p>
+<p>laravel 在添加了composer中自动加载的文件之后<br>composer dump-autoload<br>运行将方法加载保证生效<br>模型中添加，将带时区的时间转化为正常的时间<br>public $timestamps = false;  </p>
 <h1 id="魔术方法"><a href="#魔术方法" class="headerlink" title="魔术方法"></a>魔术方法</h1><p>1、__construct() ：实例化对象时自动调用。<br>2、__destruct() ：销毁对象或脚本执行结束时自动调用。<br>3、__call() ：调用对象不存在得方法时执行此函数。<br>4、__get() ：获取对象不存在的属性时执行此函数。<br>5、__set() ：设置对象不存在的属性时执行此函数。<br>6、__isset() : 检测对象的某个属性是否存在时执行此函数。<br>7、__unset() ：销毁对象的某个属性时执行此函数。</p>
 <h1 id="PHP7-和-PHP5-的区别，具体多了哪些新特性？"><a href="#PHP7-和-PHP5-的区别，具体多了哪些新特性？" class="headerlink" title="PHP7 和 PHP5 的区别，具体多了哪些新特性？"></a>PHP7 和 PHP5 的区别，具体多了哪些新特性？</h1><p>性能提升了两倍<br>结合比较运算符 (&lt;=&gt;)<br>标量类型声明<br>返回类型声明<br>try…catch 增加多条件判断，更多 Error 错误可以进行异常处理<br>匿名类，现在支持通过 new class 来实例化一个匿名类，这可以用来替代一些 “用后即焚” 的完整类定义</p>
 
@@ -392,7 +392,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-03-12 13:42:34" itemprop="dateModified" datetime="2021-03-12T13:42:34+08:00">2021-03-12</time>
+        <time title="修改时间：2021-03-14 13:06:10" itemprop="dateModified" datetime="2021-03-14T13:06:10+08:00">2021-03-14</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -421,6 +421,8 @@
 <h2 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h2><p>Explain + SQL语句 对sql语句机型性能分析</p>
 <h2 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h2><p>什么是索引，作用是什么？常见索引类型有那些？Mysql 建立索引的原则？<br>索引是一种特殊的文件，它们包含着对数据表里所有记录的引用指针，相当于书本的目录。其作用就是加快数据的检索效率。常见索引类型有主键、唯一索引、复合索引、全文索引。</p>
 <h2 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h2><p>1.通过dns查询ip<br>2.浏览器向 web 服务器发送一个 HTTP 请求<br>3.服务器的永久重定向响应<br>4.浏览器跟踪重定向地址<br>5.服务器处理请求<br>6.服务器返回一个 HTTP 响应</p>
+<h2 id="postman"><a href="#postman" class="headerlink" title="postman"></a>postman</h2><p>在登录的接口返回的test中添加如下语句，将token当作变量统一存储<br>var jsonData =JSON.parse(responseBody);<br>postman.setGlobalVariable(“token”,jsonData.data.access_token);</p>
+<h2 id="redis"><a href="#redis" class="headerlink" title="redis"></a>redis</h2><p>keys * 查看所有key</p>
 
       
     </div>
