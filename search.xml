@@ -21,6 +21,7 @@
     <content><![CDATA[<h1 id="laravel"><a href="#laravel" class="headerlink" title="laravel"></a>laravel</h1><p>laravel 查看运行的sql：  </p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line">DB::connection()-&gt;enableQueryLog();<span class="comment">//启动日志  </span></span><br><span class="line">DB::getQueryLog();<span class="comment">//打印日志  </span></span><br></pre></td></tr></table></figure>
 
+<p>laravel 在添加了composer中自动加载的文件之后<br>composer dump-autoload<br>运行将方法加载保证生效</p>
 <h1 id="魔术方法"><a href="#魔术方法" class="headerlink" title="魔术方法"></a>魔术方法</h1><p>1、__construct() ：实例化对象时自动调用。<br>2、__destruct() ：销毁对象或脚本执行结束时自动调用。<br>3、__call() ：调用对象不存在得方法时执行此函数。<br>4、__get() ：获取对象不存在的属性时执行此函数。<br>5、__set() ：设置对象不存在的属性时执行此函数。<br>6、__isset() : 检测对象的某个属性是否存在时执行此函数。<br>7、__unset() ：销毁对象的某个属性时执行此函数。</p>
 <h1 id="PHP7-和-PHP5-的区别，具体多了哪些新特性？"><a href="#PHP7-和-PHP5-的区别，具体多了哪些新特性？" class="headerlink" title="PHP7 和 PHP5 的区别，具体多了哪些新特性？"></a>PHP7 和 PHP5 的区别，具体多了哪些新特性？</h1><p>性能提升了两倍<br>结合比较运算符 (&lt;=&gt;)<br>标量类型声明<br>返回类型声明<br>try…catch 增加多条件判断，更多 Error 错误可以进行异常处理<br>匿名类，现在支持通过 new class 来实例化一个匿名类，这可以用来替代一些 “用后即焚” 的完整类定义</p>
 ]]></content>
